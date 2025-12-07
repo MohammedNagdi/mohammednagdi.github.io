@@ -1,8 +1,5 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
-baseURL: https://hugo-themes.github.io/toha-example-site/
-
-languageCode: bn
-title: "John's Blog"
+baseURL: https://mohammednagdi.github.io
 
 # Use Hugo modules to add theme
 module:
@@ -24,13 +21,8 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Mohammed Nagdi"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
 # default language for the content
 defaultContentLanguage: en
 
@@ -59,19 +51,19 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/Nile-River.webp
   # Background image of the landing page for dark theme
   #darkBackground: /images/site/background.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/MyLogos/favicon.png
+    inverted: /images/MyLogos/inverted_favicon.png
+    favicon: /images/MyLogos/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/MohammedNagdi/mohammednagdi.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -99,26 +91,26 @@ params:
     portfolio:
       enable: true
 
-    # Enable and configure blog posts
-    blog:
-      enable: true
-      showAuthor: true # shows the author of post (defaults true)
-      # Share post on different social media
-      shareButtons:
-        facebook: true
-        twitter: true
-        linkedin: true
-        reddit: true
-        whatsapp: true
-        email: true
-        # tumblr: true
-        # pocket: true
-        # diaspora: true
-        # mastodon: true
+#    # Enable and configure blog posts
+#    blog:
+#      enable: false
+#      showAuthor: true # shows the author of post (defaults true)
+#      # Share post on different social media
+#      shareButtons:
+#        facebook: true
+#        twitter: true
+#        linkedin: true
+#        reddit: true
+#        whatsapp: true
+#        email: true
+#        # tumblr: true
+#        # pocket: true
+#        # diaspora: true
+#        # mastodon: true
 
-    # Enable & configure "Notes" features
-    notes:
-      enable: true
+#    # Enable & configure "Notes" features
+#    notes:
+#      enable: true
 
     # Enable comment feature. There, should be only one of them.
     comment:

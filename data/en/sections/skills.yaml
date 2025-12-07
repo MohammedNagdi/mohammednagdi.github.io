@@ -1,71 +1,94 @@
 # section information
 section:
   name: Skills
-  id: skills
+  id: Skills
   enable: true
-  weight: 2
+  weight: 5
   showOnNavbar: true
   filter: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# filter buttons
+# Filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+  - name: All
+    filter: "all"
+  - name: Machine Learning Research
+    filter: "ml-research"
+  - name: Software Engineering
+    filter: "software"
+  - name: Cloud & DevOps
+    filter: "cloud-devops"
+  - name: Leadership & Soft Skills
+    filter: "softskills"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: PyTorch
+  logo: /images/skills/pytorch.png
+  summary: "My go-to framework – I build and train everything in PyTorch: custom Time-series models, RL agents, multimodal transformers, and fine-tuned LLMs."
+  categories: ["ml-research"]
+  tags: ["Deep Learning", "Research", "Custom Models"]
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: Large Language Models & Agents
+  logo: /images/skills/llms.png
+  summary: "Beginner practitioner exploring LLMs with Hugging Face Transformers and LangChain. Built simple RAG pipelines, tool-calling agents, and tracked experiments using Weights & Biases."
+  categories: ["ml-research"]
+  tags: ["Hugging Face", "LangChain", "RAG", "Agents", "W&B", "Learning"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: Data Science & Classical ML Toolkit
+  logo: /images/skills/ml.png
+  summary: "Daily driver: Pandas, NumPy, Scikit-learn, Matplotlib + Optuna tuning and Gymnasium RL environments."
+  categories: ["ml-research"]
+  tags: ["Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Optuna", "Gymnasium"]
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: Middleware & API Integration
+  logo: /images/skills/backend.svg
+  summary: "I architect and maintain enterprise-grade API platforms with WSO2 API Manager, build custom Java connectors, and design RESTful, GraphQL & SOAP APIs with Swagger/OpenAPI."
+  categories: ["software"]
+  tags: ["WSO2", "Java", "RESTful API", "GraphQL", "SOAP", "Swagger", "Microservices", "Enterprise Integration"]
+
+- name: Database & Data Platforms
+  logo: /images/skills/database.svg
+  summary: "I run and tune Oracle, PostgreSQL, MySQL, SAP HANA & Superset in production – backups, replication, security, and dashboards."
+  categories: ["software"]
+  tags: ["Oracle", "PostgreSQL", "MySQL", "SAP HANA", "Apache Superset", "Performance Tuning", "SRE"]
+
+- name: CI/CD & Platform Automation
+  logo: /images/skills/ci-cd.svg
+  summary: "I build and run production CI/CD with GitLab CI, GitHub Actions, Docker, and self-hosted runners – powering middleware environment at Zain."
+  categories: ["cloud-devops"]
+  tags: ["GitLab CI", "GitHub Actions", "Docker", "Container Registry", "Self-hosted Runners", "Automation", "MLOps"]
 
 - name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  logo: /images/skills/linux.png
+  summary: "Proficient in using Linux as the main operating system, with expertise in writing bash/shell scripts and developing auto-installation scripts."
+  categories: ["software", "cloud-devops"]
+  tags: ["Bash", "Shell Scripting", "System Administration", "Automation"]
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+- name: Git & Workflows
+  logo: /images/skills/git.png
+  summary: "I set up and maintain GitLab Enterprise workflows, protected branches, code reviews, and runners in production."
+  categories: ["cloud-devops"]
+  tags: ["GitLab", "GitHub", "Workflow Design", "Code Review", "Monorepo", "LFS"]
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: Fast Learner
+  logo: /images/skills/learner.png
+  summary: "Non-CS background → Google DeepMind Scholar, ML Research publication, and production ML systems while working full-time as a Software Engineer."
+  categories: ["softskills"]
+  tags: ["Self-Driven", "Adaptability", "Research"]
+
+- name: Teamwork & Collaboration
+  logo: /images/skills/teamwork.svg
+  summary: "I led the full Ericsson → Huawei middleware portfolio rebuild at Zain – coordinated cross-functional teams and external vendors to deliver under tight deadlines."
+  categories: ["softskills"]
+  tags: ["Cross-Functional", "Integration", "Delivery"]
+
+- name: Leadership
+  logo: /images/skills/leadership.png
+  summary: "I’ve led teams of 5–20+ people – from running IndabaX Sudan to driving enterprise projects as Senior Engineer at QAST."
+  categories: ["softskills"]
+  tags: ["Tech Leadership", "Mentoring", "Project Delivery"]
+

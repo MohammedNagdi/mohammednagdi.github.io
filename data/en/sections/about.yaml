@@ -5,100 +5,71 @@ section:
   enable: true
   weight: 1
   showOnNavbar: true
-  template: sections/about.html
 
-# your designation
 designation: Software Engineer
-# your company information
+
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+    name: Zain
+    url: https://zain.com/en
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
+summary: |
 
-# a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+    I’m an AI and Machine Learning enthusiast with an M.Sc. in Artificial Intelligence from the University of Edinburgh and awarded the Google DeepMind Scholarship. I specialise in Reinforcement Learning (RL) and Natural Language Processing (NLP) and have a strong background in time-series forecasting, recommender systems, and system identification.
+
+    Driven by a passion for AI since my undergraduate studies, I co-organized Indabax conferences in Sudan and pursued my master’s to apply technical advancements in AI. With experience as a Software Engineer at Zain, I engineered data integration solutions and developed APIs processing over 1M+ daily transactions. My research includes time-series foundational models, reinforcement learning, and system identification using Koopman theory and GPT architecture.
+
+    I aim to contribute to impactful AI projects, leveraging my expertise in ML, NLP, and software engineering to drive innovation and ethical AI practices. 
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "mohammednagdi4@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://github.com/MohammedNagdi"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/mohammed-nagdi/"
 
 - name: Twitter
   icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+  url: "https://x.com/mohammednagdi1"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume"
-  url: "files/resume.pdf"
+  url: "files/Mohammed_Nagdi_CV.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
-
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
-
-# you can also provide color code instead of the color name
+# badges:
 # - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+#   name: Research
+#   percentage: 90
+#   color: blue
+# - type: soft-skill-indicator
+#   name: Reinforcement Learning
+#   percentage: 90
+#   color: yellow
+# - type: soft-skill-indicator
+#   name: Deep Learning
+#   percentage: 85
+#   color: orange
+# - type: soft-skill-indicator
+#   name: Teaching
+#   percentage: 85
+#   color: green
+# - type: soft-skill-indicator
+#   name: Python
+#   percentage: 90
+#   color: pink
+# - type: soft-skill-indicator
+#   name: SE
+#   percentage: 80
+#   color: sky

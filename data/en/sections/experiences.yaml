@@ -3,7 +3,7 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 3
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
@@ -11,63 +11,56 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
+    name: Zain
+    url: "https://www.sd.zain.com/en/"
+    location: Remote
+    logo: images/comp_logos/Zain.png
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-  positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    # overview: At Microsoft Research in Cambridge, our mission is to transform the world through deep research. We do this by working together in an interdisciplinary way, in close collaboration with the broader Microsoft business, to ensure that we are designing robust and trusted technologies to empower millions of people worldwide.
   positions:
   - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+    start: Mar 2023
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Developed APIs integrating the Charging system with Zain chatbot to enhance interactivity and
+    - functionality.
+    - Engineered complex data integration solutions for the telecom BSS/OSS ecosystem, ensuring seamless information exchange between charging and billing systems.
+    - Architected and maintained scalable API infrastructures using WSO2 API Manager, transforming the middleware layer from a backend tool to a critical component for both internal and external system integrations, processing over 1M+ daily transactions with enhanced reliability.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: University of Edinburgh
+    url: "https://biology.ed.ac.uk/centre-engineering-biology"
+    location: London, United Kingdom
+    logo: images/uni_logos/uoe_logo_wb.png
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Research Assistant
+    start: Jan 2025
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+      - Lead research collaboration with the Kutz Research Group (University of Washington) on dynamical systems approaches for synthetic biology, addressing challenges beyond traditional models for time series forecasting.
+      - Applied advanced methodologies, including Koopman operator, Dynamic Mode Decomposition (DMD), SHRED, SINDy architecture, and Kolmogorov-Arnold Networks (KAN), to model physical and biological systems like the repressilator and Duffing oscillator.
+
+- company:
+    name: QAST
+    url: "https://qasthub.com"
+    location: Khartoum, Sudan
+    logo: images/comp_logos/qast_logo.jpeg
+  positions:
+  - designation: SRE - Enterprise Applications
+    start: Oct 2021
+    end: Mar 2023
+    responsibilities:
+    - Implemented automated monitoring solutions using Centreon and custom Nagios scripts, enhancing system availability by 30% through proactive issue detection and resolution
+    - Designed analytical dashboards using Apache Superset, delivering actionable KPI insights that improved IT operations productivity by 10% and reduced report generation time by 40%
+
+- company:
+    name: Business Associates
+    location: Khartoum, Sudan
+    logo: images/comp_logos/ba_logo.jpeg
+    # company overview
+    overview: Business Associates  helps organizations to improve their performance, primarily through the analysis of existing organizational problems and development of plans for improvement
+  positions:
+  - designation: Project Manager
+    start: Feb 2021
+    end: Aug 2021
+    responsibilities:
+    - Gathering product requirements, prioritising feature implementations, setting up development plan and improving user experience.
+
